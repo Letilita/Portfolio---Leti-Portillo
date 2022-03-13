@@ -1,0 +1,93 @@
+
+html, body{
+    height:100%;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Colorres, estilos generales*/
+.arce{
+    color: #c7b299;
+}
+
+.verde{
+    color: rgb(140, 198, 63);
+    
+}
+
+.shadowArce {
+    text-shadow: 1px 1px 1px #8f714c;
+}
+
+button:hover{
+    color: #c7b299;
+}
+
+button{
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 1px 1px 1px #8f714c;
+}
+h1{
+    font-family: 'Orbitron', sans-serif;
+}
+
+p{
+    font-family: 'Orbitron', sans-serif;
+}
+
+.nav-link{
+    font-family: 'Orbitron', sans-serif;
+}
+
+/* Footer con botón editar, en todas las páginas*/
+  footer{
+    background-color: transparent; 
+}
+
+/* Portada*/
+#section1{
+    background-image: url("conway.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */    
+    min-height: 100%;   
+}
+
+/*Iconos de redes sociales */
+i:hover {
+    font-size:30px;
+    color: #8cc63f;
+}
+i{
+    color: white;
+}
+
+/* Seciión2 Sobre mí*/
+#section2{
+    margin: 0;
+    padding-top: 20%;
+    background-color: #e5e1e1;
+    color: black;    
+}
+
+.card{
+    background-color: #e5e1e1;  
+}
+
+
+.ocupa-60{
+    width: 75vw
+
+}
+
+
+#divImagen{
+    max-width: 25%;
+    margin: 0px;
+
+    
+}
+.divDeLogo{
+    object-fit: contain;
+}
