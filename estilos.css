@@ -25,18 +25,9 @@ button:hover{
 }
 
 button{
-    font-family: 'Orbitron', sans-serif;
     text-shadow: 1px 1px 1px #8f714c;
 }
-h1{
-    font-family: 'Orbitron', sans-serif;
-}
-
-p{
-    font-family: 'Orbitron', sans-serif;
-}
-
-.nav-link{
+*{
     font-family: 'Orbitron', sans-serif;
 }
 
@@ -47,7 +38,7 @@ p{
 
 /* Portada*/
 #section1{
-    background-image: url("conway.png");
+    background-image: url("fotos y logos/conway.png");
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */    
@@ -55,7 +46,7 @@ p{
 }
 
 /*Iconos de redes sociales */
-i:hover {
+.hoverVerde:hover {
     font-size:30px;
     color: #8cc63f;
 }
@@ -68,7 +59,8 @@ i{
     margin: 0;
     padding-top: 20%;
     background-color: #e5e1e1;
-    color: black;    
+    color: black;  
+      
 }
 
 .card{
@@ -77,17 +69,58 @@ i{
 
 
 .ocupa-60{
-    width: 75vw
+    width: 70vw;
+    padding-top: 0px;
+    margin-top: 0px;
 
 }
 
-
-#divImagen{
-    max-width: 25%;
-    margin: 0px;
-
-    
+.card-title{
+    font-size: 1.2rem;
 }
-.divDeLogo{
-    object-fit: contain;
+
+.carousel-caption{
+    background-color: black;
+    opacity: 0.7;
+}
+#section3{
+
+    color: black;  
+      
+}
+
+.chico{
+    font-size: 0.8rem;
+}
+
+.muyChico{
+    font-size: 0.6rem;
+}
+
+#section5{
+    background-color: #8f714c;
+    color: black;
+}
+.sinDecoracion{
+    text-decoration: none;
+}
+.iconoContacto{
+    font-size: 2rem;
+    color:black;
+}
+.iconoContacto:hover{
+    text-shadow: 1px 1px 1px #201f1d
+}
+
+.borde{
+    border-style: solid;
+    border-color: #8f714c;
+    border-width: 0.1rem;
+    background-color: #201f1d;
+    opacity: 0.7;
+}
+
+.derechos{
+  
+    color: #8cc63f;
 }
