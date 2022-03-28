@@ -6,7 +6,7 @@ html, body{
     flex-direction: column;
 }
 
-/* Colorres, estilos generales*/
+/* Colores, estilos generales*/
 .arce{
     color: #c7b299;
 }
@@ -35,6 +35,27 @@ button{
   footer{
     background-color: transparent; 
 }
+.derechos{
+  
+    color: #8cc63f;
+}
+.borde{
+    border-style: solid;
+    border-color: #8f714c;
+    border-width: 0.1rem;
+    background-color: #201f1d;
+    opacity: 0.7;
+}
+
+.borde:active{
+    border: solid;
+    border-color: #8cc63f;
+}
+.borde:visited{
+    border: none;
+    text-decoration: none;
+    box-shadow: 0;
+}
 
 /* Portada*/
 #section1{
@@ -42,10 +63,14 @@ button{
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */    
-    min-height: 100%;   
+    min-height: 100%;
+    padding:100px 20px;   
+}
+#logo{
+    width:30px;
 }
 
-/*Iconos de redes sociales */
+/*Iconos de redes sociales de  la portada*/
 .hoverVerde:hover {
     font-size:30px;
     color: #8cc63f;
@@ -57,14 +82,16 @@ i{
 /* Seciión2 Sobre mí*/
 #section2{
     margin: 0;
-    padding-top: 20%;
+    
     background-color: #e5e1e1;
-    color: black;  
+    color: black; 
+    padding: 40px 0px 0px 20px; 
       
 }
 
 .card{
     background-color: #e5e1e1;  
+    width: 95%;
 }
 
 
@@ -79,14 +106,8 @@ i{
     font-size: 1.2rem;
 }
 
-.carousel-caption{
-    background-color: black;
-    opacity: 0.7;
-}
-#section3{
-
-    color: black;  
-      
+.card-text{
+    font-size: 0.9rem;
 }
 
 .chico{
@@ -97,9 +118,55 @@ i{
     font-size: 0.6rem;
 }
 
+.logoEducacion{
+    width: 3rem;
+}
+
+.divImagen{
+    margin: 0px; 
+    box-sizing: content-box; 
+    padding: 0px;
+}
+
+/* portfolio */
+.carousel-caption{
+    background-color: black;
+    opacity: 0.7;
+}
+
+/*No sé porqué el código de la sección 3 no funciona, lo tuve que poner en el html*/
+#section3{
+    padding:60px 0px 0px 0px;
+    color: black;  
+      
+}
+
+.contenedorCarrousel{
+    width: 100%;
+}
+
+.carrousel{
+    height: 80%;
+}
+.imagenCarrousel{
+    width: 100%; 
+    height: 80vh;
+}
+
+/* Conocimiento */
+#section4{
+    padding:100px 20px;
+}
+
+.progress{
+    height: 1.5rem;
+}
+
+/* contacto */
 #section5{
     background-color: #c7b299;
     color: black;
+    padding:100px 20px;
 }
 .sinDecoracion{
     text-decoration: none;
@@ -112,15 +179,5 @@ i{
     text-shadow: 1px 1px 1px #201f1d
 }
 
-.borde{
-    border-style: solid;
-    border-color: #8f714c;
-    border-width: 0.1rem;
-    background-color: #201f1d;
-    opacity: 0.7;
-}
 
-.derechos{
-  
-    color: #8cc63f;
-}
+
